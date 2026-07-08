@@ -3,7 +3,6 @@ const fromSelect = document.getElementById("from");
 const toSelect = document.getElementById("to");
 const result = document.getElementById("result");
 
-// Swap currencies
 function swapCurrency() {
 
     const temp = fromSelect.value;
@@ -12,7 +11,6 @@ function swapCurrency() {
 
 }
 
-// Convert currency
 async function convertCurrency() {
 
     const amount = amountInput.value.trim();
@@ -75,7 +73,6 @@ async function convertCurrency() {
 
 }
 
-// Press Enter to convert
 amountInput.addEventListener("keypress", function (event) {
 
     if (event.key === "Enter") {
@@ -83,4 +80,4 @@ amountInput.addEventListener("keypress", function (event) {
     }
 
 });
-```
+
