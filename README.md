@@ -28,8 +28,9 @@ The internship focused on building a strong foundation in frontend and Java prog
 - CSS3
 - JavaScript
 
-## Programming
+## Backend 
 - Core Java
+- API 
 
 ---
 
@@ -42,6 +43,8 @@ The internship focused on building a strong foundation in frontend and Java prog
 - JavaScript Fundamentals
 - Core Java Programming
 - Object-Oriented Programming (OOP)
+- API Development 
+- Database Integration 
 - Logic Building
 - Debugging
 - Project Development
@@ -87,11 +90,11 @@ A smart currency converter application that allows users to convert currencies q
 
 ### Features
 
-- Currency Conversion
+- Any Country Currency Conversion
 - User-Friendly Interface
 - Fast Calculation
 - Real-Time Conversion Logic
-- Responsive Design
+
 
 ---
 
