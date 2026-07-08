@@ -1,5 +1,3 @@
-
-
 public class CurrencyConverter {
 
     private ApiService apiService;
@@ -12,13 +10,13 @@ public class CurrencyConverter {
 
         try {
 
-            // Get exchange rate from API
+            
             double rate = apiService.getExchangeRate(from, to);
 
-            // Calculate converted amount
+    
             double convertedAmount = amount * rate;
 
-            // Build JSON response
+            
             String json =
                     "{"
                     + "\"from\":\"" + from + "\","
@@ -42,4 +40,4 @@ public class CurrencyConverter {
     }
 
 }
-```
+
